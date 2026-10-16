@@ -1,0 +1,1 @@
+export function getEnv(key: string, fallback?: string): string {\n  const value = process.env[key];\n  if (value === undefined || value === '') {\n    if (fallback !== undefined) return fallback;\n    throw new Error(Missing required env var: );\n  }\n  return value;\n}\n

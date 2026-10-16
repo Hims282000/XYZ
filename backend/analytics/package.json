@@ -1,0 +1,1 @@
+{"name":"analytics","version":"0.1.0","type":"module","main":"dist/index.js","scripts":{"build":"tsc -p .","start":"node dist/index.js","dev":"nodemon --watch src --exec \"ts-node-esm src/index.ts\""},"dependencies":{},"devDependencies":{}}
